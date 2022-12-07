@@ -24,9 +24,6 @@ function addItem() {
   for(const button of deleteItem){
     button.addEventListener('click', function(){
         event.target.parentNode.parentNode.style.display = 'none'
-    })
-
-    
+    }) 
   }
-
 }}
